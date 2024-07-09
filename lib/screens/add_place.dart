@@ -22,7 +22,7 @@ class _AddplaceScreen extends State<AddplaceScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Add new place'),
-      ),
+      ), //AppBar
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(12),
         child: Column(
@@ -35,9 +35,10 @@ class _AddplaceScreen extends State<AddplaceScreen> {
             ),
             const SizedBox(height: 16),
             ElevatedButton.icon(
-                onPressed: () {},
-                icon: const Icon(Icons.add),
-                label: const Text('Add place'))
+              onPressed: () {},
+              icon: const Icon(Icons.add),
+              label: const Text('Add place'),
+            )
           ],
         ),
       ),
